@@ -44,7 +44,7 @@ body{
     background-size: cover;
     border-radius: 10px;
     margin-top: 30px;
-    
+    margin-bottom: 74px;
 }
 
 .banner-img-content{
@@ -82,8 +82,139 @@ body{
     font-size: 20px;
     font-weight: 600;
     padding: 10px;
+    cursor: pointer;
 }
 
 /* =====================  banner part end here ============= */
 
 /* ================= web development part start here ============= */
+
+.web-dev-container{
+    width: 1140px;
+    height: 1393px;
+    margin: 0 auto;
+    border: 2px solid red;
+
+}
+
+.web-dev-items{
+    width: 946px;
+    height: 1233px;
+    margin: 0 auto;
+    border: 2px solid aqua;
+    margin-top: 80px;
+}
+
+.web-dev-content h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.web-dev-content p{
+    color: rgb(13, 19, 33);   
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.do-code-container{
+    width: 946px;
+    height: 336px;
+    border: 2px solid black;
+    margin-top: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.do-code-items{
+    width: 850px;
+    height: 240px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    
+}
+.do-code-content{
+    /* width: 50%; */
+    width: 477px;
+    border: 2px solid black;
+}
+
+.do-code-img{
+    /* width: 50%; */
+    width: 260px;
+    border: 2px solid aqua;
+    margin-left: 105px;
+}
+
+.do-code-content h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0 16px 0;
+}
+.do-code-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.do-code-content button{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+}
+
+
+.web-system-container{
+    width: 946px;
+    height: 336px;
+    border: 2px solid black;
+    margin-top: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.web-system-items{
+    width: 850px;
+    height: 240px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    
+}
+
+.web-system-content{
+    margin-left: 32px;
+}
+.web-system-content h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0 16px 0;
+}
+.web-system-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.web-system-content button{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+}
