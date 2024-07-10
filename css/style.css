@@ -74,14 +74,15 @@ body{
     margin-bottom: 32px;
 }
 
-.banner-img-content button{
+.banner-img-content a{
     border-radius: 8px;
     background-color: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
-    padding: 10px;
+    padding: 21px 24px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /* =====================  banner part end here ============= */
@@ -419,17 +420,18 @@ body{
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 
         /* ==============  support part end  ========== */
 
         /* ============ footer part start here ======== */
 
-.footer-container{
+#footer-container{
     width: 1440px;
     height: 100px;
-    border: 2px solid red;
     margin: 0 auto;
+    border: 1px solid rgba(230, 217, 217, 0.225);
     border-radius: 16px;
     margin-top: 80px;
     background-color: rgba(13, 19, 33, 0.03);
@@ -437,7 +439,6 @@ body{
 
 .footer-items{
     width: 1140px;
-    border: 2px solid black;
     margin: 0 auto;
     margin-top: 32px;
     display: flex;
