@@ -255,6 +255,7 @@ body{
 /* ========== inspiration end here ========== */
 
 /* ================ target part start ============= */
+
 .target-container{
     width: 1140px;
     height: 460px;
@@ -356,3 +357,105 @@ body{
     font-size: 16px;
     font-weight: 700;
 }
+
+        /* ================ target part end here ============= */
+ 
+        /* ==============  support part start ========== */
+        
+
+.support-banner-container{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image:url("../images/handshake.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(30, 30, 30);
+    background-blend-mode: overlay;
+    margin-top: 49px;
+}
+
+.support-content{
+    padding: 64px 48px;
+    text-align: center;
+}
+
+.support-content h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.support-content p{
+    margin-top: 16px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+.form .text{
+    width: 548px;
+    padding: 19px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.form .text::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+.form .btn{
+    width: 120px;
+    padding: 17px 20px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+        /* ==============  support part end  ========== */
+
+        /* ============ footer part start here ======== */
+
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    border: 2px solid red;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 80px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
+.footer-items{
+    width: 1140px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.footer-content h3{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 7px;
+}
+
+.footer-item-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+
+            /* ============== footer part end here =========== */
