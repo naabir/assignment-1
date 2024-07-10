@@ -253,3 +253,106 @@ body{
     
 }
 /* ========== inspiration end here ========== */
+
+/* ================ target part start ============= */
+.target-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.target-content h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.target-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding: 24px 144px 48px 144px;
+    text-align: center;
+}
+.target-items{
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    column-gap: 24px;
+}
+
+.target-items .target-item-1{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-items .target-item-2{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-items .target-item-3{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-items .target-item-1 h2{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.target-items .target-item-1  p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0 24px 0;
+}
+.target-items .target-item-1  a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+.target-items .target-item-2 h2{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.target-items .target-item-2  p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0 24px 0;
+}
+.target-items .target-item-2  a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+.target-items .target-item-3 h2{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.target-items .target-item-3  p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0 24px 0;
+}
+.target-items .target-item-3  a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
