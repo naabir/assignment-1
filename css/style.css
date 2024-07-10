@@ -184,7 +184,7 @@ body{
 }
 
 .web-system-content{
-    margin-left: 32px;
+    margin:10px 100px 10px 32px;
 }
 .web-system-content h3{
     color: rgba(13, 19, 33, 0.7);
